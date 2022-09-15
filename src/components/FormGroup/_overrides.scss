@@ -1,0 +1,9 @@
+@use '@carbon/layout';
+
+.cds--fieldset{
+    padding: layout.$spacing-04 layout.$spacing-04;
+    margin-top: layout.$spacing-10;
+    display: flex;
+    flex-direction: column;
+    gap: layout.$spacing-03;
+}
